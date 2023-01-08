@@ -10,4 +10,4 @@ The web page is designed to be simple, user-friendly, and responsive. It works o
 
 <h4>2) The second page is servlet page in which we can show the result of calculator, Which operation user can click this particular result show in servlet page. In current stage the user can perform <i>multiplication</i></h4>
 
-<img width="680" alt="result1" src="https://user-images.githubusercontent.com/113874433/211179725-6cb0cddf-b301-4623-a7c7-2bf24ec90d19.png">
+<img width="680" alt="img1" src="https://user-images.githubusercontent.com/113874433/211185775-1e3149c7-5070-4514-b3f1-38e8beabe415.png">
