@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<style>
+body{
+     background-color: Teal;
+     font-family: Arial;
+}
+h1{
+    color: navy;
+}
+.inp1, .inp2{
+   width:115px;
+   height: 35px;
+   font-size:18px;
+   color:DarkSlateGray;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5{
+   width:45px;
+   height:33px;
+   margin-left:8px;
+   color: white;
+   background-color:green;
+   border: none;
+   font-weight:bold;
+   border-radius: 7px;
+   font-size: 25px;
+   cursor: pointer;
+}
+form{
+   background-color: PeachPuff;
+   width:40%;
+   margin-top: 60px;
+   padding-bottom:50px;
+   border-radius:7px;
+}
+</style>
+</head>
+<body>
+<center>
+  <form action="myCal" method = "post">
+  <br>
+     <h1>Mathematical Calculator</h1><br><br>
+     <input type = "number" name = "num1" class = "inp1">&nbsp;&nbsp;&nbsp;
+     <input type = "number" name = "num2" class = "inp2"><br><br><br>
+     <input type = "submit" value = "+" class = "btn1" name = "oper">&nbsp;&nbsp;&nbsp;
+     <input type = "submit" value = "-" class = "btn2" name = "oper">&nbsp;&nbsp;&nbsp;
+     <input type = "submit" value = "x" class = "btn3"  name = "oper">&nbsp;&nbsp;&nbsp;
+     <input type = "submit" value = "/" class = "btn4"  name = "oper">&nbsp;&nbsp;&nbsp;
+     <input type = "submit" value = "%" class = "btn5"  name = "oper">&nbsp;&nbsp;&nbsp;
+  </form>
+   </center>
+</body>
+</html>
